@@ -12,26 +12,31 @@
     <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
     
     <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" />
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Node js</h1>
-
-    <nav>
-        <ul>
-            <li><a accesskey="a" href="aspectosTecnicos.html">Aspectos tecnicos</a></li>
-            <li><a accesskey="v" href="versiones.html">Versiones</a></li>
-            <li><a accesskey="i" href="index.html">Inicio</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Node js</h1>
+        </header>
+    
+        <nav>
+            <a tabindex=0 accesskey="i" href="index.html">Inicio</a>
+            <a tabindex=0 accesskey="a" href="aspectosTecnicos.html">Aspectos tecnicos</a>
+            <a tabindex=0 accesskey="v" href="versiones.html">Versiones</a>
+            <a tabindex=0 accesskey="o" href="opinion.html">Opinion</a>
+        </nav>
 
     <p>Tu opinion nos importa por lo que queremos que nos marques en el siguiente formulario como de util ha sido esta pagina web 
     para ti. El 5 seria la puntuacion mas alta.
     </p>
     <form>
         <p><label for="name">Nombre: <input id="name" type="text"></label></p>
+        <p><label for="edad">Edad: <input id="edad" type="number"></label></p>
+        <p><label for="tele">Telefono: <input id="tele" type="tel"></label></p>
+        <p><label for="email">Email: <input id="email" type="email"></label></p>
+       
         <fieldset>
             <legend>opinion:</legend>
             <p><label for="num1">1</label> <input type="radio" name="size" id="num1"></p>
@@ -41,6 +46,8 @@
             <p><label for="num5">5</label> <input type="radio" name="size" id="num5"></p>
             
         </fieldset>
+
+        <input type="submit" value="finish" />
     </form>
 
 </body>
