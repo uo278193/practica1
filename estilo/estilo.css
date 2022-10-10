@@ -6,24 +6,48 @@
 
 /*Especificidad: 001*/
 body {
-    background-color: #C2FDBF  ;
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'nav nav nav nav nav nav'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+  background-color: #C2FDBF  ;
+    }
+    /*Especificidad: 001*/
+h1 {
+  
+    text-align: center;  
+    grid-area : header;   
+    background-color:#C2FDBF;   
     }
 
   /*Especificidad: 001*/
   nav{
+    grid-area : nav;
     color: #fff;    
     background-color:#DAF7A6; 
     text-transform: uppercase;
     text-align: center;     
   }
 
-
-
-/*Especificidad: 001*/
-h1 {
-  
-  text-align: center;     
+   /*Especificidad: 001*/
+   main{
+    grid-area : main;
+    background-color:#C2FDBF;    
   }
+
+    /*Especificidad: 001*/
+    footer{
+        grid-area : footer;
+        background-color:#C2FDBF;    
+      }
+
+
+
+
   /*Especificidad: 001*/
   h2 {
     color: #fff;    
