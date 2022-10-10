@@ -1,3 +1,37 @@
 /*Plantilla css 
 /*Descripcion: Aqui ira la descripcion de cada uno de los documentos
 /*Autor: Mateo García Subirán
+
+
+
+/*Especificidad: 001*/
+body {
+    background-color: #C2FDBF  ;
+    }
+
+  /*Especificidad: 001*/
+  nav{
+    color: #fff;    
+    background-color:#DAF7A6; 
+    text-transform: uppercase;
+    text-align: center;     
+  }
+
+
+
+/*Especificidad: 001*/
+h1 {
+  
+  text-align: center;     
+  }
+  /*Especificidad: 001*/
+  h2 {
+    color: #fff;    
+    background-color:#7e7e7e; 
+    text-transform: uppercase;
+    padding: 1em; 
+    text-align: center;     
+    }
+  
+  
+  
