@@ -11,7 +11,7 @@ body {
     'header . . .'
     'nav nav nav nav'
     'main main main main'
-    'footer footer footer footer';
+    'footer . . .';
   gap: 10px;
   padding: 10px;
   background-color: #C2FDBF  ;
@@ -33,11 +33,12 @@ header {
     text-transform: uppercase;
     text-align: center;     
   }
-  a:link{
+  /*Especificidad: 002*/
+  nav>a:link{
     color: #fff;   
   }
-
-  a:visited{
+  /*Especificidad: 002*/
+  nav>a:visited{
     color: #fff;   
   }
 
@@ -67,16 +68,18 @@ header {
  
  
 
-
+ /*Especificidad: 001*/
 table {
   border-collapse: collapse;
   width: 100%;
   background-color: #EAFFE9;
 }
+ /*Especificidad: 001*/
 th {
   background-color:  black;
   Color:white;
 }
+ /*Especificidad: 001*/
 th, td {
   width:150px;
   text-align:center;
