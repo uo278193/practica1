@@ -64,6 +64,7 @@ header {
 table {
   border-collapse: collapse;
   width: 100%;
+  background-color: #EAFFE9;
 }
 th {
   background-color:  black;
