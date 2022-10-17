@@ -66,7 +66,7 @@ table {
   width: 100%;
 }
 th {
-  background-color:grey;
+  background-color: solid black;
   Color:white;
 }
 th, td {
