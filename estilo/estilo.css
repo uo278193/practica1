@@ -33,6 +33,13 @@ header {
     text-transform: uppercase;
     text-align: center;     
   }
+  a:link{
+    color: #fff;   
+  }
+
+  a:visited{
+    color: #fff;   
+  }
 
    /*Especificidad: 001*/
    main{
