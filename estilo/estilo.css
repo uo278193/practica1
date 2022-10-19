@@ -14,14 +14,14 @@ body {
     'footer . . .';
   gap: 10px;
   padding: 10px;
-  background-color: #C2FDBF  ;
+  background-color: #fae6fa  ;
     }
     /*Especificidad: 001*/
 header {
   
   justify-self: stretch;
     grid-area : header;   
-    background-color:#C2FDBF;   
+    
    
     }
 
@@ -29,7 +29,7 @@ header {
   nav{
     grid-area : nav;
     color: #fff;    
-    background-color:black; 
+    background-color:#7e7e7e; 
     text-transform: uppercase;
     text-align: center;     
   }
@@ -45,13 +45,13 @@ header {
    /*Especificidad: 001*/
    main{
     grid-area : main;
-    background-color:#C2FDBF;    
+    background-color:#fae6fa;    
   }
 
     /*Especificidad: 001*/
     footer{
         grid-area : footer;
-        background-color:#C2FDBF;    
+        
       }
 
 
@@ -76,8 +76,8 @@ table {
 }
  /*Especificidad: 001*/
 th {
-  background-color:  black;
-  Color:white;
+  background-color:  #fae6fa;
+  
 }
  /*Especificidad: 001*/
 th, td {
