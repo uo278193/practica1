@@ -6,6 +6,8 @@
 
 /*Especificidad: 001*/
 body {
+  font-family: Tahoma, sans-serif;
+  font-size: 2ex;
     display: grid;
     grid-template-areas:
     'header . . .'
