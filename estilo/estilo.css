@@ -28,18 +28,18 @@ header {
   /*Especificidad: 001*/
   nav{
     grid-area : nav;
-    color: black;    
+    color: white;    
     background-color:#D2B4DE; 
     text-transform: uppercase;
     text-align: center;     
   }
   /*Especificidad: 002*/
   nav>a:link{
-    color: black;   
+    color: white;   
   }
   /*Especificidad: 002*/
   nav>a:visited{
-    color: black;   
+    color: white;   
   }
 
    /*Especificidad: 001*/
