@@ -16,6 +16,7 @@ body {
     '. . footer .';
   gap: 10px;
   padding: 10px;
+  color: black;
   background-color: #fae6fa  ;
     }
     /*Especificidad: 001*/
@@ -38,15 +39,18 @@ header {
   /*Especificidad: 002*/
   nav>a:link{
     color: black;   
+    background-color:#D2B4DE; 
   }
   /*Especificidad: 002*/
   nav>a:visited{
     color: black;   
+    background-color:#D2B4DE; 
   }
 
    /*Especificidad: 001*/
    main{
     grid-area : main;
+    color: black;  
     background-color:#fae6fa;    
   }
 
@@ -79,10 +83,12 @@ header {
 table {
   border-collapse: collapse;
   width: 100%;
+  color: black;  
   background-color: #FFFFFF;
 }
  /*Especificidad: 001*/
-th {
+th { 
+  color: black;  
   background-color:  #fae6fa;
   
 }
