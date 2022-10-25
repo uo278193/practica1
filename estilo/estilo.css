@@ -8,12 +8,6 @@
 body {
   font-family: Tahoma, sans-serif;
   font-size: 2ex;
-    display: grid;
-    grid-template-areas:
-    'header . . .'
-    'nav nav nav nav'
-    'main main main main'
-    '. . footer .';
   gap: 10px;
   padding: 10px;
   color: black;
@@ -23,14 +17,14 @@ body {
 header {
   
   justify-self: stretch;
-    grid-area : header;   
+  
     
    
     }
 
   /*Especificidad: 001*/
   nav{
-    grid-area : nav;
+   
     color: black;    
     background-color:#D2B4DE; 
     text-transform: uppercase;
@@ -49,16 +43,12 @@ header {
 
    /*Especificidad: 001*/
    main{
-    grid-area : main;
+  
     color: black;  
     background-color:#fae6fa;    
   }
 
-    /*Especificidad: 001*/
-    footer{
-        grid-area : footer;
-        
-      }
+  
 
     /*Especificidad: 002*/
     footer>p{
